@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_vayu.mk
+    $(LOCAL_DIR)/calyx_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_vayu-user \
-    lineage_vayu-userdebug \
-    lineage_vayu-eng
+    calyx_vayu-user \
+    calyx_vayu-userdebug \
+    calyx_vayu-eng
