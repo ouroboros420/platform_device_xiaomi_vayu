@@ -25,6 +25,10 @@ TARGET_SCREEN_WIDTH := 1080
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
 
+# Custom APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Fingerprint
