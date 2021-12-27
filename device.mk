@@ -31,6 +31,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Audio configs
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor
